@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    padding: 3rem;
+    background-color: #3AAFA9; /* Set background color as per the image */
+    color: white; /* Set text color to white for contrast */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white; 
+  }
+  
+.icon-container {
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+    color: #2ecc71; /* Invert color for cart icon */
+  }
+
+  .logo{
+    color: black;
+
+  }
+  .logo:hover{
+    color: white;
+  }
+
+  .cart-container{
+
+      width: 50pxpx;
+      height: 50pxpx;
+      border: 3px solid black;
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      transition: 0.5s;
+  }
+  .cart-container:hover{
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 1); 
+    transition: 0.5s;
+  }
+
+  .profile{
+    width: 50pxpx;
+      height: 50pxpx;
+      border: 3px solid black;
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      transition: 0.5s;
+      color :  black
+  }
+
+  .profile:hover{
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 1); 
+    transition: 0.5s;
+  }

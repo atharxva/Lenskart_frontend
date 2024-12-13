@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center; /* Vertically center image and text */
+    gap: 20px; /* Add spacing between image and text */
+  }
+  
+  .image-container {
+    /* Set a max-width to prevent large images from overflowing */
+    max-width: 300px;
+  }
+  
+  .text-container {
+    /* Allow text to grow and take up available space */
+    flex-grow: 1;
+    /* Optional: Style the text content if needed */
+    font-size: 2em; /* Example font size */
+    color: #333; /* Example text color */
+  }
+  
+  /* Style the image to prevent overflow and maintain aspect ratio */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
